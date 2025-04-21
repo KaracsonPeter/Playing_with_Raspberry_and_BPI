@@ -1,0 +1,1 @@
+# 1. If you know that you wanna use GPIOs and I2C peripheries on a board, start with testing them on the OS on which you are installing them.
