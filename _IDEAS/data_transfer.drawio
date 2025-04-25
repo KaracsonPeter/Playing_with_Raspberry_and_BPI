@@ -1,0 +1,51 @@
+<mxfile host="Electron" modified="2025-04-25T22:46:07.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="68NjTbJ3Q7wmHhV_Krxj" version="21.6.8" type="device">
+  <diagram name="1 oldal" id="5M3DaGB3wuH6PO7HfgoV">
+    <mxGraphModel dx="1182" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lXL5NVSI9GX34JelAAcs-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="tSz0tno8jynpq7_KAymz-1" value="Server Acknowledge&lt;br&gt;Short: &lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;sa&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSz0tno8jynpq7_KAymz-2" value="Server Data Request towards Client&lt;br&gt;Async&lt;br&gt;Short: &lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;sr&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="20" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSz0tno8jynpq7_KAymz-3" value="Client Serves Server&#39;s request&lt;br&gt;Short: &lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;cs&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B8FAFC;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSz0tno8jynpq7_KAymz-4" value="Client Data Feed&lt;br&gt;Every &#39;n&#39; seconds&lt;br&gt;Short: &lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;cf&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-1" value="Client Acknowledge&lt;br&gt;Short: &lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ca&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B2D0E7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-2" value="Types of traffic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lXL5NVSI9GX34JelAAcs-6" target="lXL5NVSI9GX34JelAAcs-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640.0000000000002" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-6" value="ServerStart" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-8" value="Topic Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-10" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;client_id / traffic_type / device_type / device_id&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Example:&lt;/span&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;r25/cs/camera/1&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Meaning: 25. Raspberry on the router serves a data request of the server made on camera 1&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL5NVSI9GX34JelAAcs-14" value="By continouosly reading topics, it knows if there is a new client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="185" width="140" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
