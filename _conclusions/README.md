@@ -1,1 +1,3 @@
 # 1. If you know that you wanna use GPIOs and I2C peripheries on a board, start with testing them on the OS on which you are installing them.
+# 2. Try to install packages first you need to use later on. Does not work? Do you have alternatives?
+# 3. Use frequently used and popular and well-supported machines for POCs. If it works, you'll need do develop your own board with custom build Yocto distribution. (Raspberry PI, might can extend I2C of a laptop???python3 --version)(Banana PI M2 Berry is old as hell. Does not have supp anymore.)
