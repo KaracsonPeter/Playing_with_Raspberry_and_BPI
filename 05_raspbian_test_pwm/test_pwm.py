@@ -9,10 +9,16 @@ GPIO.setup(PIN, GPIO.OUT)
 pwm = GPIO.PWM(PIN, 1000)  # 1kHz frequency
 
 pwm.start(0)  # Duty cycle
-for i in range(100):
-    pwm.ChangeDutyCycle(i)
+while True:
+    for i in range(100):
+        pwm.ChangeDutyCycle(i)
 
-    time.sleep(0.01)
+        time.sleep(0.01)
+
+    for i in range(100):
+        pwm.ChangeDutyCycle(100 - i)
+
+        time.sleep(0.01)
 
 pwm.stop()
 
